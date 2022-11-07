@@ -1,0 +1,33 @@
+# <span style="color:#268BD2">**Documentation**</span>
+
+## <span style="color:#268BD2">Section 1: **data analysis**</span>
+
+In the first section you are going to find a space for the <span style="color:#df691a">**data analysis**</span>. In the first place you are going to find the elements needed to make the configuration of the data. Below the app supports 3 features:
+1. <span style="color:#B3E2FF">**Exploratory Data Analysis:**</span> Here you will find a simple description of the data, nothing complicated.
+2. <span style="color:#B3E2FF">**Graphs and Histograms Open/Close:**</span> This feature creates you 5 differents graph of your data giving you the histograms, the candlestick graph and the time series plot, here I have used different tools to build the graphs.
+3. <span style="color:#B3E2FF">**Create the Model:**</span> It supports the creation of an <span style="color:#df691a">**Auto-Arima R Model**</span>, at first you can validate if the conditions of the model are verified. Then you can click the bottom "Shall Auto-Arima Model?" to generate it, check the validation with graphs and p-values, and see the prediction.
+
+<div class="alert alert-block alert-warning">
+	<b>Important:</b> For upload your own data, them should have the next columns at the same order: Date,Open,High,Low,Close,Adj Close,Volume <br> If you want to load the data in this format you can use [Yahoo Finance](https://es.finance.yahoo.com/), search the values you want and you donwload them from <span style="color:#df691a"><b>Historical Data</b></span>
+</div>
+
+## <span style="color:#268BD2">Section 2: **Today's Winners, GDP, Locations**</span>
+
+Here the app supports 3 features again:
+1. The upside table represents the <span style="color:#df691a">**10 Winner Companies**</span> of today. It can modify its value depending on the hour you open the app because the market could be open.
+2. An interactive graph that covers the <span style="color:#df691a">**GDP Growth per Country**</span> and compares them with colors.
+3. An interactive graph where you can write an latitude and a longitude to find a company office for example. The default value represents the Inditex office location.
+
+## <span style="color:#268BD2">Section 3: **Documentation**</span>
+In this section I describe the main idea of the application and the different references and examples that I have used to build it.
+
+## <span style="color:#268BD2">**References**</span>
+1. [Shiny from RStudio](https://shiny.rstudio.com/)
+2. [Plotly](https://plotly.com/)
+3. [Leaflet for R](https://rstudio.github.io/leaflet/)
+4. [Yahoo Finance API Command Line Tool](https://github.com/nnmax1/yahoo-finance-CLI#yahoo-finance-api-command-line-tool)
+5. [Stock Price Forecasting Using Time Series Analysis, Machine Learning and single layer neural network Models, Kenneth Page](https://rpubs.com/kapage/523169)
+6. [DMwR In Class - Predicting Stock Market Returns](https://rstudio-pubs-static.s3.amazonaws.com/299141_49076bded88d434d9a1af6593da61109.html#)
+7. [Stock Analysis and Forecasting, TEAM MARS](https://rstudio-pubs-static.s3.amazonaws.com/495641_b5c18cffd89941a3baf43c1e5dde5ee2.html)
+8. [Be Awesome in ggplot2: A Practical Guide to be Highly Effective - R software and data visualization](http://www.sthda.com/english/wiki/be-awesome-in-ggplot2-a-practical-guide-to-be-highly-effective-r-software-and-data-visualization)
+9. <span style="color:#df691a">Written notes and hints given by the Professor of DSBI in classes</span>
